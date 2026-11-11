@@ -1,0 +1,28 @@
+{
+  "name": "software-dev-course-debug-tools-and-programs",
+  "version": "1.0.0",
+  "description": "Students will apply **debugging tools and strategies** to identify and fix errors in a pre-written JavaScript application.",
+  "main": "cart.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerrad9/software-dev-course-debug-tools-and-programs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nerrad9/software-dev-course-debug-tools-and-programs/issues"
+  },
+  "homepage": "https://github.com/nerrad9/software-dev-course-debug-tools-and-programs#readme",
+  "devDependencies": {
+    "jest": "^30.5.2",
+    "jest-environment-jsdom": "^30.5.2"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
